@@ -4,4 +4,5 @@ draw_healthbar(50,700,200,650,obj_player.hitPoints,c_black,c_red,c_lime,0,true,t
 
 var vx = camera_get_view_x(view_camera[0]);
 var vy = camera_get_view_y(view_camera[0]);
-draw_text(vx + 5, vy + 5, "SCORE" + string(score));
+draw_set_font(pixelFont);
+draw_text(50, 600, "SCORE: " + string(score));
