@@ -4,7 +4,7 @@
 image_speed = 0;	// stop sprite animation
 hSpeed = 0;			// horiz. speed
 vSpeed = 0;			// vert. speed
-speedWalk = 2.0;	// sprite speed
+speedWalk = 8.0;	// sprite speed
 
 spriteRun = spr_saucer;
 spriteIdle = spr_saucer;

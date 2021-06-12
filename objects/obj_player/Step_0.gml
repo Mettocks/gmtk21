@@ -16,11 +16,28 @@ keyItem = keyboard_check_pressed(vk_control);
 
 	// ---- work w/ angles: prevent increased diagonal speed ----
 
-inputDirection = point_direction(0,0,keyRight-keyLeft,keyDown-keyUp); // bool. add/sub
+/*inputDirection = point_direction(0,0,keyRight-keyLeft,keyDown-keyUp); // bool. add/sub
 inputMagnitude = (keyRight - keyLeft != 0) || (keyDown - keyUp != 0);
 
 hSpeed = lengthdir_x(inputMagnitude * speedWalk, inputDirection); // x component of vector
 vSpeed = lengthdir_y(inputMagnitude * speedWalk, inputDirection);
+
+x += hSpeed;
+y += vSpeed;
+*/
+
+if(keyLeft && hSpeed > -10){
+	hSpeed -= 0.4;
+}
+if(keyRight && hSpeed < 10){
+	hSpeed += 0.4;
+}
+if(keyUp && vSpeed > -10){
+	vSpeed -= 0.4;
+}
+if(keyDown && vSpeed < 10){
+	vSpeed += 0.4;
+}
 
 x += hSpeed;
 y += vSpeed;
