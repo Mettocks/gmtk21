@@ -32,3 +32,10 @@ upEnd = 11;
 downFrame = 0;
 downStart = 4;
 downEnd = 11;
+
+frameInterval = 0;
+
+lastLeftFrame = 0;
+lastRightFrame = 0;
+lastUpFrame = 0;
+lastDownFrame = 0;
