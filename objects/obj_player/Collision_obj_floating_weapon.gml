@@ -5,6 +5,7 @@ with(other){
 	var angle = image_angle;
 	var x_off = x;
 	var y_off = y;
+	var type = type;
 	instance_destroy();
 }
 

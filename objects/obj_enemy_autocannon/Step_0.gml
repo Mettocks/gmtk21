@@ -21,8 +21,11 @@ if(rtf){
 	rtf = false;
 	var bul = instance_create_layer(x+5, y, "Instances", obj_bullet);
 	bul.direction = image_angle;
+	bul.friendly = false;
 }
 
 if(hitPoints == 10){
 	instance_destroy();
+	var inst = instance_create_layer(x, y, "Instances", obj_floating_weapon);
+	inst.weapon_type = 0;
 }
