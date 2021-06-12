@@ -5,6 +5,7 @@
     {"id":{"name":"obj_floating_weapon","path":"objects/obj_floating_weapon/obj_floating_weapon.yy",},"order":3,},
     {"id":{"name":"obj_autocannon","path":"objects/obj_autocannon/obj_autocannon.yy",},"order":1,},
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},"order":15,},
+    {"id":{"name":"spr_cannon_enemy","path":"sprites/spr_cannon_enemy/spr_cannon_enemy.yy",},"order":4,},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":2,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":2,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
