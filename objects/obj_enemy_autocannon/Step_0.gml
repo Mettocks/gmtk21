@@ -13,7 +13,6 @@ if(distance_to_object(obj_player) >= range){
 	} 
 } else {
 		speed -= momentum+0.05;
-		hSpeed += momentum;
 }
 
 if(rtf){
