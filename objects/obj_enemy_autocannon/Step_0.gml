@@ -12,9 +12,6 @@ if(distance_to_object(obj_player) >= range){
 		speed += momentum;
 	} 
 } else {
-	if(speed > 0){
-		speed = 0;
-	}
 	if(speed > -10){
 		speed -= momentum*3;
 	}
