@@ -7,6 +7,7 @@ offset_y = y - obj_player.y;
 direction = image_angle;
 
 ammo = 100;
+fire_rate = 3;
 rtf = false;
 firing = false;
 frame = 0;
