@@ -7,4 +7,5 @@ if(frame < 7){
 } else {
 	frame = 0;
 	firing = false;
+	instance_create_layer(x, y+2, "Instances", obj_lance); 
 }
