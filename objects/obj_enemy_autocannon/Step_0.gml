@@ -9,10 +9,11 @@ image_angle = dir;
 
 if(distance_to_object(obj_player) >= range){
 	if (speed < 4){
-		speed += 0.05;
+		speed += momentum;
 	} 
 } else {
-		speed -= 0.05;
+		speed -= momentum+0.05;
+		hSpeed += momentum;
 }
 
 if(rtf){
