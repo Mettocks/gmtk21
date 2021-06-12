@@ -26,17 +26,25 @@ x += hSpeed;
 y += vSpeed;
 */
 
-if(keyLeft && hSpeed > -10){
-	hSpeed -= 0.4;
+if(keyLeft){
+	if(hSpeed > -10){
+		hSpeed -= 0.4;
+	}
 }
-if(keyRight && hSpeed < 10){
-	hSpeed += 0.4;
+if(keyRight){
+	if(hSpeed < 10){
+		hSpeed += 0.4;
+	}
 }
-if(keyUp && vSpeed > -10){
-	vSpeed -= 0.4;
+if(keyUp){
+	if(vSpeed > -10){
+		vSpeed -= 0.4;
+	}
 }
-if(keyDown && vSpeed < 10){
-	vSpeed += 0.4;
+if(keyDown){
+	if(vSpeed < 10){
+		vSpeed += 0.4;
+	}
 }
 
 x += hSpeed;

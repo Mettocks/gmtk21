@@ -9,3 +9,5 @@ speedWalk = 8.0;	// sprite speed
 spriteRun = spr_saucer;
 spriteIdle = spr_saucer;
 localFrame = 0;
+
+fireFrame = 0;
