@@ -22,3 +22,7 @@ if(rtf){
 	var bul = instance_create_layer(x+5, y, "Instances", obj_bullet);
 	bul.direction = image_angle;
 }
+
+if(hitPoints == 10){
+	instance_destroy();
+}

@@ -1,5 +1,4 @@
 {
-  "name": "TileSet1",
   "spriteId": null,
   "tileWidth": 16,
   "tileHeight": 16,
@@ -21,7 +20,7 @@
   "tileAnimationSpeed": 15.0,
   "tileAnimation": {
     "FrameData": [],
-    "SerialiseFrameCount": 0,
+    "SerialiseFrameCount": 1,
   },
   "macroPageTiles": {
     "SerialiseWidth": 0,
@@ -33,6 +32,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
+  "name": "TileSet1",
   "tags": [],
   "resourceType": "GMTileSet",
 }
