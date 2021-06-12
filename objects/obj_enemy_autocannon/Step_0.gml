@@ -6,7 +6,7 @@ var dir = point_direction(x, y, obj_player.x, obj_player.y);
 direction = dir;
 image_angle = dir;
 
-/*
+
 if(distance_to_object(obj_player) >= range){
 	if (speed < 4){
 		speed += momentum;
@@ -16,7 +16,7 @@ if(distance_to_object(obj_player) >= range){
 		speed -= momentum*3;
 	}
 }
-*/
+
 
 
 if(rtf){
