@@ -26,7 +26,7 @@ if(rtf){
 	bul.friendly = false;
 }
 
-if(hitPoints == 10){
+if(hitPoints > 10){
 	instance_destroy();
 	var inst = instance_create_layer(x, y, "Instances", obj_floating_weapon);
 	inst.weapon_id = 1;
