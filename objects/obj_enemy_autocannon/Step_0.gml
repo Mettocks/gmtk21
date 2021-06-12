@@ -19,7 +19,7 @@ if(distance_to_object(obj_player) >= range){
 
 if(rtf){
 	rtf = false;
-	var bul = instance_create_layer(x+5, y, "Instances", obj_bullet);
+	var bul = instance_create_layer(x+10, y, "Instances", obj_bullet);
 	bul.direction = image_angle;
 	bul.friendly = false;
 }
@@ -27,5 +27,7 @@ if(rtf){
 if(hitPoints == 10){
 	instance_destroy();
 	var inst = instance_create_layer(x, y, "Instances", obj_floating_weapon);
-	inst.weapon_type = 0;
+	inst.weapon_id = 1;
+	inst.weapon = inst.wep[inst.weapon_id][0];
+	inst.spr = inst.wep[inst.weapon_id][1];
 }
