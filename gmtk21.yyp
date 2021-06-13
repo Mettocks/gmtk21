@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"obj_rocket_launcher","path":"objects/obj_rocket_launcher/obj_rocket_launcher.yy",},"order":12,},
     {"id":{"name":"spr_fire","path":"sprites/spr_fire/spr_fire.yy",},"order":3,},
     {"id":{"name":"spr_saucer","path":"sprites/spr_saucer/spr_saucer.yy",},"order":0,},
     {"id":{"name":"obj_floating_weapon","path":"objects/obj_floating_weapon/obj_floating_weapon.yy",},"order":3,},
@@ -24,6 +25,7 @@
     {"id":{"name":"spr_lance","path":"sprites/spr_lance/spr_lance.yy",},"order":9,},
     {"id":{"name":"spr_ammo_bar","path":"sprites/spr_ammo_bar/spr_ammo_bar.yy",},"order":5,},
     {"id":{"name":"spr_autocannon","path":"sprites/spr_autocannon/spr_autocannon.yy",},"order":1,},
+    {"id":{"name":"obj_rocket","path":"objects/obj_rocket/obj_rocket.yy",},"order":13,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
