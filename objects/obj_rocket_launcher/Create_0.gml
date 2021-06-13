@@ -1,0 +1,9 @@
+/// @description
+// You can write your code in this editor
+
+offset_x = x - obj_player.x;
+offset_y = y - obj_player.y;
+
+direction = image_angle;
+
+ammo = 10;
