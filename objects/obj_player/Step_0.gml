@@ -31,3 +31,14 @@ if(keyDown){
 
 x += hSpeed;
 y += vSpeed;
+
+asteroidsID = layer_tilemap_get_id("asteroids");
+asteroidCheck = tilemap_get_at_pixel(asteroidsID, x, y);
+
+if(asteroidCheck != 0){
+	hitPoints -= 0.25;
+}
+
+if(hitPoints <= 0){
+	gameover = true;
+}

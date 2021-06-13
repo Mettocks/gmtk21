@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 hitPoints = 100;
+gameover = false;
 
 image_speed = 0;	// stop sprite animation
 hSpeed = 0;			// horiz. speed

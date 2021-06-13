@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-draw_sprite(spr_saucer,0,x,y);
-
+if(!gameover){
+	draw_sprite(spr_saucer,0,x,y);
+}
 //
 // UPDATE LEFT KEY (RIGHT BOOSTER) ANIMATION
 //
