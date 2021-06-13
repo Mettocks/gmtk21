@@ -12,4 +12,7 @@ if(obj_player.gameover == true){
 	draw_set_font(bigPixelFont);
 	draw_text(340,384,"GAME OVER");
 	draw_text(200,500,"PRESS SPACE TO TRY AGAIN");
+	//if(keyboard_check_pressed(vk_space)){
+		//game_restart();
+	//}
 }
