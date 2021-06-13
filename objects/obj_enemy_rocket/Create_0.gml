@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-range = irandom_range(30, 50); // distance this instance will stay away from the player
+
+range = irandom_range(128, 200); // distance this instance will stay away from the player
 rtf = false;
 fire_rate = 2;
 momentum = 0.02;
