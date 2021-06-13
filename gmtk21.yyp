@@ -13,6 +13,7 @@
     {"id":{"name":"obj_health_pickup","path":"objects/obj_health_pickup/obj_health_pickup.yy",},"order":11,},
     {"id":{"name":"obj_launcher","path":"objects/obj_launcher/obj_launcher.yy",},"order":12,},
     {"id":{"name":"obj_enemy_autocannon","path":"objects/obj_enemy_autocannon/obj_enemy_autocannon.yy",},"order":4,},
+    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":0,},
     {"id":{"name":"obj_laser","path":"objects/obj_laser/obj_laser.yy",},"order":9,},
     {"id":{"name":"spr_rocket_ammo","path":"sprites/spr_rocket_ammo/spr_rocket_ammo.yy",},"order":15,},
     {"id":{"name":"spr_AsteroidTiles","path":"sprites/spr_AsteroidTiles/spr_AsteroidTiles.yy",},"order":12,},
